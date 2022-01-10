@@ -35,7 +35,7 @@ export default function Navbar(props) {
             }
             id="example-navbar-warning"
           >
-            <ul className="flex flex-col lg:flex-row list-none mr-auto">
+            {/* <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
@@ -45,12 +45,44 @@ export default function Navbar(props) {
                   Docs
                 </a>
               </li>
-            </ul>
+            </ul> */}
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+              <li className="flex items-center">
+                <a
+                  className="lg:text-wite lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="/Programs"
+                >
+                  Home
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="/Programs"
+                >
+                  About us
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className="lg:text-white lg:hover:text-blueGray-200 hover:border-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="/Programs"
+                >
+                  Stories
+                </a>
+              </li>
+              <li className="flex items-center">
+                <a
+                  className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="/Programs"
+                >
+                  Programs
+                </a>
+              </li>
               <li className="flex items-center">
                 <PagesDropdown />
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="#"
@@ -81,11 +113,11 @@ export default function Navbar(props) {
                   <i className="lg:text-blueGray-200 text-blueGray-400 fab fa-github text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Star</span>
                 </a>
-              </li>
+              </li> */}
 
               <li className="flex items-center">
                 <button
-                  className="bg-white text-blueGray-700 active:bg-blueGray-50 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  className="bg-white active:bg-violet-600 text-blueGray-700 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
                   <i class="fas fa-address-book"></i> Contact us

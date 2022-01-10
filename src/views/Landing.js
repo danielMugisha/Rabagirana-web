@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
+import Bg from "assets/img/background.jpg";
+import vacation from "assets/img/vacation.jpg";
 
 export default function Landing() {
   return (
@@ -12,29 +14,30 @@ export default function Landing() {
       <Navbar transparent />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
-          <div
-            className="absolute top-0 w-full h-full bg-center bg-cover"
-            style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
-            }}
-          >
+          <div className="absolute top-0 w-full h-full bg-center bg-cover">
+            <img
+              src={Bg}
+              alt="backgroung"
+              className="absolute top-0 w-full h-full bg-center bg-cover"
+            />
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-75 bg-black"
+              className="w-full h-full absolute opacity-50 bg-black"
             ></span>
           </div>
           <div className="container relative mx-auto">
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl">
-                    Your story starts with us.
+                  <h1 className="text-white font-semibold text-5xl mt-20">
+                    Souls Can Shine As Bright As{" "}
+                    <span className="text-green-400">Stars</span>
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
-                    on the Tailwind CSS design system.
+                    There is no readily available road map to reconciliation.
+                    There is no quick fix or simple prescription for healing the
+                    wounds and divisions of a society in the aftermath of
+                    sustained violence.
                   </p>
                 </div>
               </div>
@@ -70,10 +73,14 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">
+                      PEACE-BUILIDING, HEALING AND RECONCILIATION
+                    </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
+                      Formerly known as HWEC (Healing Wounds of Ethnic
+                      Conflict), HHTN is a Bible-based approach used in
+                      workshops to help individuals and communities receive
+                      healing, forgiveness and reconciliation.
                     </p>
                   </div>
                 </div>
@@ -85,10 +92,14 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Free Revisions</h6>
+                    <h6 className="text-xl font-semibold">
+                      COMMUNITY DEVELOPMENT
+                    </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
+                      Rabagirana Ministries defines Community Development as a
+                      holistic Biblical approach grounded in principles of
+                      empowerment, human rights, inclusion, social justice, and
+                      collective action.
                     </p>
                   </div>
                 </div>
@@ -100,10 +111,13 @@ export default function Landing() {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Verified Company</h6>
+                    <h6 className="text-xl font-semibold">
+                      LEADERSHIP DEVELOPMENT
+                    </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                      Rabagirana Ministries defines Leadership development as
+                      the process of enhancing an individual's capacity to serve
+                      in leadership roles within an organization or community
                     </p>
                   </div>
                 </div>
@@ -118,19 +132,20 @@ export default function Landing() {
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
                   Working with us is a pleasure
                 </h3>
-                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
-                </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
+                <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-800">
+                  There is no readily available road map to reconciliation.
+                  There is no quick fix or simple prescription for healing the
+                  wounds and divisions of a society in the aftermath of
+                  sustained violence. Developing trust and understanding between
+                  former adversaries is an exceedingly tough task. It is,
+                  however, one that must be addressed as part of the process of
+                  establishing a lasting peace. Examining the painful past,
+                  acknowledging and understanding it, and, most importantly,
+                  transcending it together, is the only way to ensure that it
+                  does not – and cannot – happen again!
                 </p>
                 <Link to="/" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus React!
+                  VIEW MORE...
                 </Link>
               </div>
 
@@ -138,7 +153,7 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                   <img
                     alt="..."
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                    src={vacation}
                     className="w-full align-middle rounded-t-lg"
                   />
                   <blockquote className="relative p-8 mb-4">
@@ -263,12 +278,14 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Here are our heroes</h2>
-                <p className="text-lg leading-relaxed m-4 text-blueGray-500">
+                <h2 className="text-4xl font-semibold">
+                  Here are our Partners
+                </h2>
+                {/* <p className="text-lg leading-relaxed m-4 text-blueGray-500">
                   According to the National Oceanic and Atmospheric
                   Administration, Ted, Scambos, NSIDClead scentist, puts the
                   potentially record maximum.
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="flex flex-wrap">
@@ -277,7 +294,7 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={require("assets/img/team-1-800x800.jpg").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Ryan Tompson</h5>
@@ -312,7 +329,7 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={require("assets/img/team-2-800x800.jpg").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg rounded-half mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Romina Hadid</h5>
@@ -341,7 +358,7 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={require("assets/img/team-3-800x800.jpg").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg rounded-half mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Alexa Smith</h5>
@@ -376,7 +393,7 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={require("assets/img/team-4-470x470.png").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg rounded-half mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Jenna Kardi</h5>
@@ -441,7 +458,7 @@ export default function Landing() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Build something
+                  Contact us by donating
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
                   Put the potentially record low maximum sea ice extent tihs
@@ -456,11 +473,10 @@ export default function Landing() {
                   <i className="fas fa-medal text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">
-                  Excelent Services
+                  Phone Number
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Tel: (+250) 786639530
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -468,11 +484,10 @@ export default function Landing() {
                   <i className="fas fa-poll text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Grow your market
+                  Email address
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Email: Rabagirana@gmail.com
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -480,11 +495,10 @@ export default function Landing() {
                   <i className="fas fa-lightbulb text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Launch time
+                  Location
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Location: Po Box 172 Kigali, Rwanda.
                 </p>
               </div>
             </div>
