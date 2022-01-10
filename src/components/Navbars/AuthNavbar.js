@@ -50,7 +50,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-wite lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/Programs"
+                  href="/"
                 >
                   Home
                 </a>
@@ -58,7 +58,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/Programs"
+                  href="/about"
                 >
                   About us
                 </a>
@@ -66,19 +66,19 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 hover:border-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/Programs"
+                  href="/stories"
                 >
                   Stories
                 </a>
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <a
                   className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/Programs"
+                  href="/programs"
                 >
                   Programs
                 </a>
-              </li>
+              </li> */}
               <li className="flex items-center">
                 <PagesDropdown />
               </li>
@@ -116,12 +116,12 @@ export default function Navbar(props) {
               </li> */}
 
               <li className="flex items-center">
-                <button
-                  className="bg-white active:bg-violet-600 text-blueGray-700 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
-                  type="button"
+                <a
+                  className="bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                  href="#pablo"
                 >
                   <i class="fas fa-address-book"></i> Contact us
-                </button>
+                </a>
               </li>
             </ul>
           </div>

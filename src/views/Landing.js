@@ -29,9 +29,9 @@ export default function Landing() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl mt-20">
+                  <h1 className="text-white font-semibold text-5xl mt-10">
                     Souls Can Shine As Bright As{" "}
-                    <span className="text-green-400">Stars</span>
+                    <span className="text-yellow-300">Stars</span>
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
                     There is no readily available road map to reconciliation.
@@ -80,8 +80,17 @@ export default function Landing() {
                       Formerly known as HWEC (Healing Wounds of Ethnic
                       Conflict), HHTN is a Bible-based approach used in
                       workshops to help individuals and communities receive
-                      healing, forgiveness and reconciliation.
+                      healing, forgiveness and reconciliation. <br />
                     </p>
+                    <a
+                      href="/programs"
+                      target=""
+                      className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150 pt-15"
+                    >
+                      {" "}
+                      View All{" "}
+                      <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -101,6 +110,15 @@ export default function Landing() {
                       empowerment, human rights, inclusion, social justice, and
                       collective action.
                     </p>
+                    <a
+                      href="/programs"
+                      target=""
+                      className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150 pt-15"
+                    >
+                      {" "}
+                      View All{" "}
+                      <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -119,6 +137,15 @@ export default function Landing() {
                       the process of enhancing an individual's capacity to serve
                       in leadership roles within an organization or community
                     </p>
+                    <a
+                      href="/programs"
+                      target=""
+                      className="font-bold text-blue-700 hover:text-blueGray-500 ease-linear transition-all duration-150 pt-15"
+                    >
+                      {" "}
+                      View All{" "}
+                      <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -467,7 +494,7 @@ export default function Landing() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap mt-12 justify-center">
+            <div id="pablo" className="flex flex-wrap mt-12 justify-center">
               <div className="w-full lg:w-3/12 px-4 text-center">
                 <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-medal text-xl"></i>
@@ -561,7 +588,7 @@ export default function Landing() {
                     </div>
                     <div className="text-center mt-6">
                       <button
-                        className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1  transition duration-150 ease-in-out ..."
                         type="button"
                       >
                         Send Message
