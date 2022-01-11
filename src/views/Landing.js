@@ -22,7 +22,7 @@ export default function Landing() {
             />
             <span
               id="blackOverlay"
-              className="w-full h-full absolute opacity-50 bg-black"
+              className="w-full h-full absolute opacity-75 bg-black"
             ></span>
           </div>
           <div className="container relative mx-auto">
@@ -31,7 +31,7 @@ export default function Landing() {
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl mt-10">
                     Souls Can Shine As Bright As{" "}
-                    <span className="text-yellow-300">Stars</span>
+                    <span style={{ color: "#FBB821" }}>Stars</span>
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
                     There is no readily available road map to reconciliation.
@@ -70,27 +70,19 @@ export default function Landing() {
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                    <div
+                      className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full "
+                      style={{ backgroundColor: "#3b7949" }}
+                    >
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">
-                      PEACE-BUILIDING, HEALING AND RECONCILIATION
-                    </h6>
+                    <h6 className="text-xl font-semibold">Vision</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Formerly known as HWEC (Healing Wounds of Ethnic
                       Conflict), HHTN is a Bible-based approach used in
                       workshops to help individuals and communities receive
                       healing, forgiveness and reconciliation. <br />
                     </p>
-                    <a
-                      href="/programs"
-                      target=""
-                      className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150 pt-15"
-                    >
-                      {" "}
-                      View All{" "}
-                      <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -98,27 +90,19 @@ export default function Landing() {
               <div className="w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
+                    <div
+                      className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full "
+                      style={{ backgroundColor: "#7B6093" }}
+                    >
                       <i className="fas fa-retweet"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">
-                      COMMUNITY DEVELOPMENT
-                    </h6>
+                    <h6 className="text-xl font-semibold">Mission</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Rabagirana Ministries defines Community Development as a
                       holistic Biblical approach grounded in principles of
                       empowerment, human rights, inclusion, social justice, and
                       collective action.
                     </p>
-                    <a
-                      href="/programs"
-                      target=""
-                      className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150 pt-15"
-                    >
-                      {" "}
-                      View All{" "}
-                      <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -126,26 +110,18 @@ export default function Landing() {
               <div className="pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
+                    <div
+                      className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full "
+                      style={{ backgroundColor: "#FBB821" }}
+                    >
                       <i className="fas fa-fingerprint"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">
-                      LEADERSHIP DEVELOPMENT
-                    </h6>
+                    <h6 className="text-xl font-semibold">Strategies</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Rabagirana Ministries defines Leadership development as
                       the process of enhancing an individual's capacity to serve
                       in leadership roles within an organization or community
                     </p>
-                    <a
-                      href="/programs"
-                      target=""
-                      className="font-bold text-blue-700 hover:text-blueGray-500 ease-linear transition-all duration-150 pt-15"
-                    >
-                      {" "}
-                      View All{" "}
-                      <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
-                    </a>
                   </div>
                 </div>
               </div>
@@ -157,7 +133,7 @@ export default function Landing() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                  Rabagirana's story of impact
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-800">
                   There is no readily available road map to reconciliation.
@@ -171,20 +147,26 @@ export default function Landing() {
                   transcending it together, is the only way to ensure that it
                   does not – and cannot – happen again!
                 </p>
-                <Link to="/" className="font-bold text-blueGray-700 mt-8">
+                <Link
+                  to="/programs/community"
+                  className="font-bold text-blueGray-700 mt-8"
+                >
                   VIEW MORE...
                 </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+                <div className="relative flex flex-col min-w-0 break-words w-full  shadow-lg rounded-full">
                   <img
                     alt="..."
                     src={vacation}
                     className="w-full align-middle rounded-t-lg"
                   />
-                  <blockquote className="relative p-8 mb-4">
-                    <svg
+                  <blockquote
+                    className="relative p-8 mb-4"
+                    style={{ backgroundColor: "#FBB821" }}
+                  >
+                    {/* <svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 583 95"
@@ -192,9 +174,10 @@ export default function Landing() {
                     >
                       <polygon
                         points="-30,95 583,95 583,65"
-                        className="text-lightBlue-500 fill-current"
+                        className=" fill-current"
+                        style={{ backgroundColor: "#FBB821" }}
                       ></polygon>
-                    </svg>
+                    </svg> */}
                     <h4 className="text-xl font-bold text-white">
                       Top Notch Services
                     </h4>
@@ -242,40 +225,49 @@ export default function Landing() {
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
+                  <div
+                    className=" p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300"
+                    style={{ backgroundColor: "#7B6093" }}
+                  >
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">A growing company</h3>
+                  <h3 className="text-3xl font-semibold">
+                    Community Engagement
+                  </h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    The Arctic Ocean freezes every winter and much of the
+                    sea-ice then thaws every summer, and that process will
+                    continue whatever happens.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <span
+                            style={{ backgroundColor: "#7B6093" }}
+                            className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lightBlue-200 mr-3"
+                          >
                             <i className="fas fa-fingerprint"></i>
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-blueGray-500">
-                            Carefully crafted components
-                          </h4>
+                          <h4 className="text-blueGray-500">Peace building</h4>
                         </div>
                       </div>
                     </li>
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <span
+                            style={{ backgroundColor: "#7B6093" }}
+                            className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lightBlue-200 mr-3"
+                          >
                             <i className="fab fa-html5"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Amazing page examples
+                            Poverty Reduction
                           </h4>
                         </div>
                       </div>
@@ -283,13 +275,16 @@ export default function Landing() {
                     <li className="py-2">
                       <div className="flex items-center">
                         <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-lightBlue-600 bg-lightBlue-200 mr-3">
+                          <span
+                            style={{ backgroundColor: "#7B6093" }}
+                            className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-lightBlue-200 mr-3"
+                          >
                             <i className="far fa-paper-plane"></i>
                           </span>
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Dynamic components
+                            Community outreach
                           </h4>
                         </div>
                       </div>
@@ -305,14 +300,12 @@ export default function Landing() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">
-                  Here are our Partners
-                </h2>
-                {/* <p className="text-lg leading-relaxed m-4 text-blueGray-500">
+                <h2 className="text-4xl font-semibold">Our Frontliners</h2>
+                <p className="text-lg leading-relaxed m-4 text-blueGray-500">
                   According to the National Oceanic and Atmospheric
                   Administration, Ted, Scambos, NSIDClead scentist, puts the
                   potentially record maximum.
-                </p> */}
+                </p>
               </div>
             </div>
             <div className="flex flex-wrap">
@@ -321,14 +314,20 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={require("assets/img/team-1-800x800.jpg").default}
-                    className="shadow-lg mx-auto max-w-120-px"
+                    className="shadow-lg mx-auto rounded-full max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">John Doe</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Web Developer
                     </p>
                     <div className="mt-6">
+                      <button
+                        className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <i className="fab fa-google"></i>
+                      </button>
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -341,12 +340,6 @@ export default function Landing() {
                       >
                         <i className="fab fa-facebook-f"></i>
                       </button>
-                      <button
-                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-dribbble"></i>
-                      </button>
                     </div>
                   </div>
                 </div>
@@ -356,10 +349,10 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={require("assets/img/team-2-800x800.jpg").default}
-                    className="shadow-lg rounded-half mx-auto max-w-120-px"
+                    className="shadow-lg rounded-half mx-auto rounded-full max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Romina Hadid</h5>
+                    <h5 className="text-xl font-bold">John Doe</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Marketing Specialist
                     </p>
@@ -369,6 +362,12 @@ export default function Landing() {
                         type="button"
                       >
                         <i className="fab fa-google"></i>
+                      </button>
+                      <button
+                        className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                      >
+                        <i className="fab fa-twitter"></i>
                       </button>
                       <button
                         className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
@@ -385,10 +384,10 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={require("assets/img/team-3-800x800.jpg").default}
-                    className="shadow-lg rounded-half mx-auto max-w-120-px"
+                    className="shadow-lg rounded-half mx-auto rounded-full max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Alexa Smith</h5>
+                    <h5 className="text-xl font-bold">John Doe</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       UI/UX Designer
                     </p>
@@ -406,10 +405,10 @@ export default function Landing() {
                         <i className="fab fa-twitter"></i>
                       </button>
                       <button
-                        className="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-facebook-f"></i>
                       </button>
                     </div>
                   </div>
@@ -420,20 +419,14 @@ export default function Landing() {
                   <img
                     alt="..."
                     src={require("assets/img/team-4-470x470.png").default}
-                    className="shadow-lg rounded-half mx-auto max-w-120-px"
+                    className="shadow-lg rounded-half mx-auto rounded-full max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Jenna Kardi</h5>
+                    <h5 className="text-xl font-bold">John Doe</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Founder and CEO
                     </p>
                     <div className="mt-6">
-                      <button
-                        className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                      >
-                        <i className="fab fa-dribbble"></i>
-                      </button>
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -447,10 +440,10 @@ export default function Landing() {
                         <i className="fab fa-twitter"></i>
                       </button>
                       <button
-                        className="bg-blueGray-700 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        className="bg-lightBlue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
                       >
-                        <i className="fab fa-instagram"></i>
+                        <i className="fab fa-facebook-f"></i>
                       </button>
                     </div>
                   </div>
@@ -485,7 +478,7 @@ export default function Landing() {
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Contact us by donating
+                  Contact us or donate
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
                   Put the potentially record low maximum sea ice extent tihs
@@ -538,11 +531,10 @@ export default function Landing() {
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                   <div className="flex-auto p-5 lg:p-10">
                     <h4 className="text-2xl font-semibold">
-                      Want to work with us?
+                      Want to contact us?
                     </h4>
                     <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                      Complete this form and we will get back to you in 24
-                      hours.
+                      Complete this form and we will get back to you very soon.
                     </p>
                     <div className="relative w-full mb-3 mt-8">
                       <label
