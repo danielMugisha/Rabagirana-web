@@ -17,7 +17,10 @@ import Profile from "views/Profile.js";
 // import Index from "views/Index.js";
 import About from "views/About";
 import Stories from "views/Stories";
-import Programs from "views/Programs";
+// Programs routes
+import ReconsProgram from "views/ReconsProgram";
+import CommunityProgram from "views/CommunityProgram";
+import LeadershipProgram from "views/LeadershipProgram";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -28,7 +31,9 @@ ReactDOM.render(
       {/* add routes without layouts */}
       {/* <Route path="/landing" exact component={Index} /> */}
       <Route path="/about" component={About} />
-      <Route path="/programs" component={Programs} />
+      <Route path="/programs/peacebuilding" component={ReconsProgram} />
+      <Route path="/programs/peacebuilding" component={LeadershipProgram} />
+      <Route path="/programs/peacebuilding" component={CommunityProgram} />
       <Route path="/stories" component={Stories} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/" exact component={Landing} />

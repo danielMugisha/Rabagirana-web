@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 import { Link } from "react-router-dom";
 import { createPopper } from "@popperjs/core";
 
@@ -19,7 +20,7 @@ const PagesDropdown = () => {
   return (
     <>
       <a
-        className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+        className="lg:text-white lg:hover:text-yellow-400 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
         href="#pablo"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -37,7 +38,7 @@ const PagesDropdown = () => {
         }
       >
         <Link
-          to="/programs"
+          to="/programs/peacebuilding"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -46,7 +47,7 @@ const PagesDropdown = () => {
           PEACE-BUILIDING, HEALING AND RECONCILIATION
         </Link>
         <Link
-          to="/programs"
+          to="/programs/community-development"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }
@@ -55,7 +56,7 @@ const PagesDropdown = () => {
           COMMUNITY DEVELOPMENT
         </Link>
         <Link
-          to="/programs"
+          to="/programs/leadership-development"
           className={
             "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
           }

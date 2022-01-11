@@ -45,89 +45,212 @@ export default function Profile() {
           <div className="container mx-auto px-4">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
-                <div className="flex flex-wrap justify-center">
-                  <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
-                    <div className="relative">
-                      <img
-                        alt="..."
-                        src={require("assets/img/team-2-800x800.jpg").default}
-                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
-                      />
-                    </div>
-                  </div>
-                  <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                    <div className="py-6 px-3 mt-32 sm:mt-0">
-                      <button
-                        className="bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
-                        type="button"
-                      >
-                        Connect
-                      </button>
-                    </div>
-                  </div>
-                  <div className="w-full lg:w-4/12 px-4 lg:order-1">
-                    <div className="flex justify-center py-4 lg:pt-4 pt-8">
-                      <div className="mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          22
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Friends
-                        </span>
-                      </div>
-                      <div className="mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          10
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Photos
-                        </span>
-                      </div>
-                      <div className="lg:mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
-                          89
-                        </span>
-                        <span className="text-sm text-blueGray-400">
-                          Comments
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="text-center mt-12">
-                  <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
-                    Jenna Stones
+                <div className="text-center mt-4">
+                  <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700">
+                    Stories of impact
                   </h3>
-                  <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
-                    <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>{" "}
-                    Los Angeles, California
-                  </div>
-                  <div className="mb-2 text-blueGray-600 mt-10">
-                    <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
-                    Solution Manager - Creative Tim Officer
-                  </div>
-                  <div className="mb-2 text-blueGray-600">
-                    <i className="fas fa-university mr-2 text-lg text-blueGray-400"></i>
-                    University of Computer Science
-                  </div>
                 </div>
                 <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
-                      <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        An artist of considerable range, Jenna the name taken by
-                        Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                        performs and records all of his own music, giving it a
-                        warm, intimate feel with a solid groove structure. An
-                        artist of considerable range.
-                      </p>
-                      <a
-                        href="#pablo"
-                        className="font-normal text-lightBlue-500"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        Show more
-                      </a>
+                      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                        <div className="grid max-w-2xl mx-auto">
+                          <div className="flex">
+                            <div className="flex flex-col items-center mr-6">
+                              <div className="w-px h-10 opacity-0 sm:h-full" />
+                              <div>
+                                <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                                  1
+                                </div>
+                              </div>
+                              <div className="w-px h-full bg-gray-300" />
+                            </div>
+                            <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+                              <div className="sm:mr-5">
+                                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                                  <svg
+                                    className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                                    stroke="currentColor"
+                                    viewBox="0 0 52 52"
+                                  >
+                                    <polygon
+                                      strokeWidth="3"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      fill="none"
+                                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                    />
+                                  </svg>
+                                </div>
+                              </div>
+                              <div>
+                                <p className="text-xl font-semibold sm:text-base">
+                                  FROM FIREWOOD TO GAS
+                                </p>
+                                {/* <p className="text-sm text-gray-700">
+                                  The month was July, the day was a Saturday,
+                                  and the time was half-past midday. A joyous
+                                  Keza Angelique, a single mother of three, is
+                                  humming to a hymn from the radio as she warms
+                                  ‘isombe’ (cassava leaves) for lunch, using her
+                                  newly purchased gas cooker. With a green
+                                  colorful ‘kitenge’ (wrapper) around her waist
+                                  and a bandana of the same color covering her
+                                  head, she turns to us and asks, “do you want
+                                  to know the secret ingredient to my tasty
+                                  isombe?” “Love!” my colleague immediately
+                                  yelled. “No. Love doesn’t make my isombe
+                                  sweet. What’s wrong with you?” She replied
+                                  playfully, making us all burst into laughter.
+                                  After she was done warming the isombe, she got
+                                  ready to prepare ‘ugali’ (sorghum flour). She
+                                  sprinkled the flour into the boiling water
+                                  while briskly stirring it with a cooking stick
+                                  to make it thicker. In a very short time, the
+                                  ugali was ready and it was time to eat. As we
+                                  sat by the dining table to devour the tasty
+                                  meal that lay helplessly before us, Keza
+                                  signaled that she wanted to say something. My
+                                  colleague and I immediately had one of those
+                                  telepathic communications, questioning Keza’s
+                                  poor timing. “One doesn’t give speeches before
+                                  the meal…speeches usually take place after the
+                                  meal!" he seemed to say. "Her house, her rules
+                                  I guess," I signaled back. So, we sat quietly
+                                  and listened to her
+                                </p> */}
+                                <p
+                                  className="text-md pt-6"
+                                  style={{ fontWeight: "italic" }}
+                                >
+                                  Thank you, Rabagirana Ministries for the gas
+                                  cooker. Cooking over the traditional
+                                  three-stone open fire was a health hazard to
+                                  me. It used to make me cough a lot and the
+                                  smoke would hurt my eyes too... giving me
+                                  teary eyes with a running nose. But this gas
+                                  produces no smoke and since I started using
+                                  it, I do not cough anymore.
+                                </p>
+                                <a
+                                  href="/stories"
+                                  className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150 mt-2"
+                                >
+                                  View Whole story{" "}
+                                  <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="flex">
+                            <div className="flex flex-col items-center mr-6">
+                              <div className="w-px h-10 bg-gray-300 sm:h-full" />
+                              <div>
+                                <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                                  2
+                                </div>
+                              </div>
+                              <div className="w-px h-full bg-gray-300" />
+                            </div>
+                            <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+                              <div className="sm:mr-5">
+                                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                                  <svg
+                                    className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                                    stroke="currentColor"
+                                    viewBox="0 0 52 52"
+                                  >
+                                    <polygon
+                                      strokeWidth="3"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      fill="none"
+                                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                    />
+                                  </svg>
+                                </div>
+                              </div>
+                              <div>
+                                <p className="text-xl font-semibold sm:text-base mt-24">
+                                  THAT DAY AFTER A LONG TIME WE HAD FISH FOR
+                                  SUPPER…
+                                </p>
+                                <p className="text-md text-gray-700 pt-6">
+                                  Emmanuel made his first dozen of shopping bags
+                                  around mid-May. With the lockdown partly
+                                  lifted, he managed to take them to the market,
+                                  and in less than a few hours, they were all
+                                  gone. “I honestly couldn’t believe it.” He
+                                  remarked. “That day, after a long time we had
+                                  fish for supper!” said a very jolly Emmanuel.
+                                  He now makes up to 200 shopping bags per day.
+                                  “In an average day, I now earn up to 20,000
+                                  francs (25$).
+                                </p>
+                                <a
+                                  href="/stories"
+                                  className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
+                                >
+                                  View Whole story{" "}
+                                  <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="flex">
+                            <div className="flex flex-col items-center mr-6">
+                              <div className="w-px h-10 bg-gray-300 sm:h-full" />
+                              <div>
+                                <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
+                                  3
+                                </div>
+                              </div>
+                              <div className="w-px h-full opacity-0" />
+                            </div>
+                            <div className="flex flex-col pb-6 sm:items-center sm:flex-row sm:pb-0">
+                              <div className="sm:mr-5">
+                                <div className="flex items-center justify-center w-16 h-16 my-3 rounded-full bg-indigo-50 sm:w-24 sm:h-24">
+                                  <svg
+                                    className="w-12 h-12 text-deep-purple-accent-400 sm:w-16 sm:h-16"
+                                    stroke="currentColor"
+                                    viewBox="0 0 52 52"
+                                  >
+                                    <polygon
+                                      strokeWidth="3"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      fill="none"
+                                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                                    />
+                                  </svg>
+                                </div>
+                              </div>
+                              <div>
+                                <p className="text-xl font-semibold sm:text-base mt-24">
+                                  THE HEALING SALON…
+                                </p>
+                                <p className="text-md text-gray-700 pt-6">
+                                  After her completion of the course, Claudine
+                                  didn't take long before she landed her first
+                                  job. She now works at Magic Salon, which is
+                                  also known by the locals as the "healing
+                                  salon." The nickname "healing salon" came from
+                                  the fact that people actually felt better
+                                  after spending time in that salon and Claudine
+                                  was the party behind that.
+                                </p>
+                                <a
+                                  href="/stories"
+                                  className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
+                                >
+                                  View Whole story{" "}
+                                  <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>

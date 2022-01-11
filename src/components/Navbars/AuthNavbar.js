@@ -49,7 +49,7 @@ export default function Navbar(props) {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
                 <a
-                  className="lg:text-wite lg:hover:text-[#FBB821] text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="lg:text-yellow-400 lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/"
                 >
                   Home
@@ -60,7 +60,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <a
-                  className="lg:text-white lg:hover:text-blueGray-200 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="lg:text-white lg:hover:text-yellow-400 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/about"
                 >
                   About Rabagirana
@@ -68,7 +68,7 @@ export default function Navbar(props) {
               </li>
               <li className="flex items-center">
                 <a
-                  className="lg:text-white lg:hover:text-blueGray-200 hover:border-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="lg:text-white lg:hover:text-yellow-400 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="/stories"
                 >
                   Stories of Impact
@@ -77,7 +77,7 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <a
-                  className=" active:bg-lightBlue-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                  className=" active:text-yellow-400 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
                   style={{ backgroundColor: "#7B6093" }}
                   href="#pablo"
                 >
